@@ -9,7 +9,7 @@
 typedef unsigned char u8_t;
 typedef unsigned int u32_t;
 
-int main(int ac, char *av[])
+int main(int ac, char* av[])
 {
   /*
    *              ip[0]    ip[1]    ip[2]    ip[3]
@@ -44,7 +44,7 @@ int main(int ac, char *av[])
   int subnet_id;
   int host_id;
 
-  char *token;        /* for strtok() */
+  char* token;        /* for strtok() */
   int i;
 
   if (ac < 3) {
